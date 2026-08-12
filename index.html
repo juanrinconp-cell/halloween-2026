@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asado Medieval · Halloween 2026</title>
+  <meta name="description" content="Asado Medieval de Halloween · 24 de octubre 2026 · Desde las 4:00 PM · Calle 148 #21-50" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=MedievalSharp&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ornamento superior -->
+  <div class="banner-top" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="crest" aria-hidden="true">⚔</div>
+    <nav class="nav">
+      <a href="#detalles">El plan</a>
+      <a href="#incluye">La Comida</a>
+      <a href="#disfraces">El Disfraz</a>
+      <a href="#ubicacion">Dónde es</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-inner">
+      <h1 class="hero-title">Asado Medieval<br /><span>de Halloween</span></h1>
+      <div class="hero-facts">
+        <div class="fact">
+          <span class="fact-label">Fecha</span>
+          <span class="fact-value">24 de Octubre</span>
+          <span class="fact-note">2026</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Hora</span>
+          <span class="fact-value">4:00 PM</span>
+          <span class="fact-note">en adelante</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">La vaca</span>
+          <span class="fact-value">$50.000</span>
+          <span class="fact-note">por persona</span>
+        </div>
+      </div>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#disfraces">Ver ideas de disfraces</a>
+        <a class="btn btn-ghost" href="#ubicacion">Cómo llegar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETALLES -->
+  <section class="section" id="detalles">
+    <h2 class="section-title">El plan</h2>
+    <p class="section-lead">Salchicha alemana, palomitas, pola y aguardiente. La cita es el 24 de octubre desde las 4 de la tarde.</p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🗓</div>
+        <h3>Fecha</h3>
+        <p>Sábado 24 de octubre de 2026</p>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🕓</div>
+        <h3>Hora</h3>
+        <p>Desde las 4:00 PM en adelante</p>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🏰</div>
+        <h3>Lugar</h3>
+        <p>Calle 148 #21 - 50</p>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🪙</div>
+        <h3>La vaca</h3>
+        <p>$50.000</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- INCLUYE / LA MESA -->
+  <section class="section section-alt" id="incluye">
+    <h2 class="section-title">Qué Hay para Comer</h2>
+    <p class="section-lead">Con los <strong>$50.000</strong> de la vaca ya queda cubierto esto:</p>
+
+    <ul class="feast">
+      <li>
+        <span class="feast-emoji" aria-hidden="true">🍺</span>
+        <span class="feast-name">Cerveza</span>
+        <span class="feast-desc">Para brindar toda la tarde.</span>
+      </li>
+      <li>
+        <span class="feast-emoji" aria-hidden="true">🌭</span>
+        <span class="feast-name">Salchichas alemanas</span>
+        <span class="feast-desc">En asador.</span>
+      </li>
+      <li>
+        <span class="feast-emoji" aria-hidden="true">🍿</span>
+        <span class="feast-name">Palomitas</span>
+        <span class="feast-desc">Para picar</span>
+      </li>
+    </ul>
+
+    <p class="feast-foot">Eso ya está cubierto. Tú solo llega con el disfraz y las ganas.</p>
+  </section>
+
+  <!-- DISFRACES -->
+  <section class="section" id="disfraces">
+    <h2 class="section-title">El Disfraz</h2>
+    <p class="section-lead">La única regla: <strong>venir disfrazado</strong>. Caballeros, brujas, reyes, bufones, vikingos, doncellas, monjes o hasta un dragón… lo que sea, mientras sea medieval. ¿No sabes de qué? Mira estas ideas.</p>
+
+    <div class="disfraz-cta">
+      <button class="btn btn-primary" id="openCostumes">📜 Ver ideas de disfraces</button>
+    </div>
+  </section>
+
+  <!-- UBICACION -->
+  <section class="section section-alt" id="ubicacion">
+    <h2 class="section-title">Dónde es</h2>
+    <p class="section-lead">Dirección:</p>
+    <p class="address">Calle 148 #21 - 50</p>
+    <div class="map-wrap">
+      <iframe
+        title="Mapa de la ubicación"
+        src="https://www.google.com/maps?q=Calle%20148%20%2321-50&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Calle%20148%20%2321-50" target="_blank" rel="noopener">Abrir en Google Maps</a>
+  </section>
+
+  <footer class="site-footer">
+    <div class="crest" aria-hidden="true">⚜</div>
+    <p class="footer-title">Asado Medieval de Halloween</p>
+    <p class="footer-line">24 de octubre 2026 · Desde las 4:00 PM · Calle 148 #21-50</p>
+  </footer>
+
+  <!-- MODAL DISFRACES -->
+  <div class="modal" id="costumeModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="document">
+      <button class="modal-close" data-close aria-label="Cerrar">✕</button>
+      <h3 class="modal-title" id="modalTitle">Ideas de Disfraces</h3>
+      <p class="modal-sub">Por si no sabes de qué caer, aquí van varias ideas:</p>
+      <div class="modal-img-wrap">
+        <img id="costumeImage" src="images/disfraces.png" alt="Ideas de disfraces medievales"
+             onerror="this.classList.add('img-missing'); this.alt='Aquí irá la imagen de disfraces';" />
+        <div class="img-placeholder" aria-hidden="true">
+          <span>📜</span>
+          <p>Aquí irá tu imagen de disfraces</p>
+          <small>Guárdala como <code>images/disfraces.jpg</code></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
